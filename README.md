@@ -5,6 +5,15 @@ The program gets the coordinate of the pixels of the ZED2 depth map into the lid
 
 ## Getting Started
  - Get the latest [ZED SDK](https://www.stereolabs.com/developers/release/) and [pyZED Package](https://www.stereolabs.com/docs/app-development/python/install/)
+ - The code works with a .svo file provided by a ZED2 Camera. Check the documentation in order to record your .svo file
+ - A .txt file is also needed. This one is provided by a rplidar A1. Nevertheless, every lidar export as a .txt file in yaml format is supported, as long as you modify the data to extract (default: "ranges").
+
+## Parameters
+ - Camera's resolution
+ - Camera's FOV
+ - Data to extract from .txt file (default: "ranges)
+ - Distance (x,y,z) from the left camera to the lidar output
+ - Orientation of the lidar from the camera (default: 180). (Where does the recording begins for the lidar)
 
 ## Run the program
 

@@ -13,7 +13,9 @@ The program gets the coordinate of the pixels of the ZED2 depth map into the lid
  - Camera's FOV
  - Data to extract from .txt file (default: "ranges)
  - Distance (x,y,z) from the left camera to the lidar output
- - Orientation of the lidar from the camera (default: 180). (Where does the recording begins for the lidar)
+ - Orientation of the lidar from the camera (default: 0). (Where does the recording begins for the lidar)
+ - ![image](https://user-images.githubusercontent.com/58843318/176413913-05cf9f89-dfd3-46fa-9f89-d90e2e107a9f.png)
+
 
 ## Run the program
 
